@@ -1,9 +1,25 @@
+<!-- index.html -->
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Title</title>
-  </head>
-  <body>
-    <p>Paragraph</p>
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fahrenheit to Celsius Converter</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="your_favicon_url" type="image/x-icon">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Fahrenheit to Celsius Converter</h1>
+    <label for="fahrenheit">Enter Degrees Fahrenheit: </label>
+    <input type="number" id="fahrenheit" step="0.1" placeholder="Enter Fahrenheit">
+    <button onclick="convertToFahrenheit()">Calculate</button>
+    <p id="result"></p>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+
 </html>
